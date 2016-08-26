@@ -5,7 +5,7 @@ import starbucks.ingredients.Order;
 
 import static starbucks.ingredients.CoffeeIngredients.*;
 
-public class StarbucksPointOfSale {
+public class StarbucksApp {
 
     public static void main(String[] args) {
         //****************************************************
