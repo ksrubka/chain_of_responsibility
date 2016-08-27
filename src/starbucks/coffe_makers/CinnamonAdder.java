@@ -24,7 +24,7 @@ public class CinnamonAdder extends CoffeeMaker {
         if (order.contains(CINNAMON)) {
             coffee.add(CINNAMON_NAME, CINNAMON_COST);
         }
-        nextCoffeeMaker.setCoffe(coffee);
+        nextCoffeeMaker.setCoffee(coffee);
         nextCoffeeMaker.makeCoffee(order);
     }
 }

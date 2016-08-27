@@ -22,7 +22,7 @@ public class MilkAdder extends CoffeeMaker {
             AnyMilk milk = MilkFactory.create(order);
             coffee.add(milk.getName(), milk.getCost());
             }
-        nextCoffeeMaker.setCoffe(coffee);
+        nextCoffeeMaker.setCoffee(coffee);
         nextCoffeeMaker.makeCoffee(order);
     }
 

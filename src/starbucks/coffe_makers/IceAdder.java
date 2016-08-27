@@ -23,7 +23,7 @@ public class IceAdder extends CoffeeMaker {
         if (order.contains(ICE)) {
             coffee.add(ICE_NAME, ICE_COST);
         }
-        nextCoffeeMaker.setCoffe(coffee);
+        nextCoffeeMaker.setCoffee(coffee);
         nextCoffeeMaker.makeCoffee(order);
     }
 }

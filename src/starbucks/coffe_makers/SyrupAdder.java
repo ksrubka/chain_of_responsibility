@@ -23,7 +23,7 @@ public class SyrupAdder extends CoffeeMaker {
             Syrup syrup = SyrupFactory.create(order);
             coffee.add(syrup.getName(), syrup.getCost());
         }
-        nextCoffeeMaker.setCoffe(coffee);
+        nextCoffeeMaker.setCoffee(coffee);
         nextCoffeeMaker.makeCoffee(order);
     }
 }

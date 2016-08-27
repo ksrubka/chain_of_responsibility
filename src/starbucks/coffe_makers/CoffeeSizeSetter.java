@@ -21,7 +21,7 @@ public class CoffeeSizeSetter extends CoffeeMaker {
         if (order.contains(SMALL_COFFEE) ||
                 order.contains(MEDIUM_COFFEE) || order.contains(LARGE_COFFEE)) {
             coffee = CoffeeFactory.create(order);
-            nextCoffeeMaker.setCoffe(coffee);
+            nextCoffeeMaker.setCoffee(coffee);
             nextCoffeeMaker.makeCoffee(order);
         }
         else {
