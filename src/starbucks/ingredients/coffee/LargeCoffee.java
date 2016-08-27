@@ -2,9 +2,9 @@ package starbucks.ingredients.coffee;
 
 import java.math.BigDecimal;
 
-public class LargeCoffee extends Coffee {
+class LargeCoffee extends Coffee {
 
-    public LargeCoffee() {
+    LargeCoffee() {
         cost = new BigDecimal(7.0);;
         name.append("Large coffee");
     }

@@ -1,8 +1,8 @@
 package starbucks.ingredients.syrup;
 
-public class CaramelSyrup extends Syrup {
+class CaramelSyrup extends Syrup {
 
-    public CaramelSyrup() {
+    CaramelSyrup() {
         name = ", caramel syrup";
     }
 }

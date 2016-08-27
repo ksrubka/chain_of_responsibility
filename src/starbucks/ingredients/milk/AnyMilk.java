@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 
 public class AnyMilk {
 
-    protected String name;
-    protected BigDecimal cost;
+    String name;
+    BigDecimal cost;
 
     public String getName() {
         return name;
